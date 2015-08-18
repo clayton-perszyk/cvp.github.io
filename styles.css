@@ -1,0 +1,40 @@
+body  {
+  width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  padding: 10px;
+  margin-left: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+#score {
+  background: grey;
+  width: 150px;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#score {
+  margin: 0 auto;
+}
+
+#reset {
+  margin-left: 45%;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+#whoChoseWhat {
+  margin-left: 35%;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+h1 {
+  padding-left: 20%;
+}
