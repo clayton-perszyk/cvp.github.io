@@ -10,8 +10,8 @@ var body = document.querySelector("body");
 var button = document.querySelector("button");
 var images = document.querySelector(".images");
 
-images.addEventListener("click", function(e){
-  humanChoice = e.target.id;
+images.addEventListener("click", function(event){
+  humanChoice = event.target.id;
     compChoice = choices[Math.floor(Math.random() * choices.length)];
      if (compChoice === humanChoice) {
       // do nothing
