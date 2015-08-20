@@ -36,7 +36,6 @@ $(document).ready(function(){
       scoreDisplay.append(loses);
   });
 
-
   button.on("click", function(){
     scoreDisplay.html("");
     score.wins = 0;
