@@ -12,18 +12,18 @@ var images = document.querySelector(".images");
 
 images.addEventListener("click", function(event){
   humanChoice = event.target.id;
-    compChoice = choices[Math.floor(Math.random() * choices.length)];
-     if (compChoice === humanChoice) {
-      // do nothing
-     } else if (compChoice === "rock" && humanChoice === "scissors") {
-       score.loses += 1;
-     } else if (compChoice === "paper" && humanChoice === "rock") {
-       score.loses += 1;
-     } else if (compChoice === "scissors" && humanChoice === "paper") {
-       score.loses += 1;
-     } else {
-       score.wins += 1;
-     }
+  compChoice = choices[Math.floor(Math.random() * choices.length)];
+   if (compChoice === humanChoice) {
+    // do nothing
+   } else if (compChoice === "rock" && humanChoice === "scissors") {
+     score.loses += 1;
+   } else if (compChoice === "paper" && humanChoice === "rock") {
+     score.loses += 1;
+   } else if (compChoice === "scissors" && humanChoice === "paper") {
+     score.loses += 1;
+   } else {
+     score.wins += 1;
+   }
 
     whoChoseWhat.innerHTML = "You chose " + humanChoice + "//" + "Opponent chose " + compChoice;
     whoChoseWhat.setAttribute("id", "whoChoseWhat");
